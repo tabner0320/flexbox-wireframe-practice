@@ -1,64 +1,37 @@
-@import url("./reset.css");
-
-:root {
-    --forest-dark-green: #2c6e49; /* Deep forest green */
-    --forest-light-green: #a7d8a2; /* Soft, light green leaves */
-    --bark-brown: #6a4e23; /* Bark-like brown */
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: var(--forest-light-green);
-    color: var(--bark-brown);
-}
-
-.header {
+header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 1rem;
-    background-color: var(--forest-dark-green);
-    color: white;
-    min-height: 5dvh;
-}
-
-.image-container {
-    max-height: 100%;
-    display: flex;
     justify-content: center;
+    padding: 1rem;
+    background-color: purple;
+    color: white;
 }
 
-.main {
+main {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background-color: var(--bark-brown);
+    background-color: green;
+}
+
+article {
+    background-color: crimson;
     color: white;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
-.post-article {
-    display: flex;
-    flex-direction: column;
-}
-
-.title {
-    align-self: center;
-    padding: 0.25rem;
-    margin: 0.25rem;
-}
-
-.paragraph {
-    padding: 0.5rem;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 5dvh;
-    background-color: var(--forest-dark-green);
+aside {
+    background-color: navy;
     color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
