@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Basic Reset to remove default margins, paddings, and other inconsistencies */
 *,
 *::before,
@@ -72,4 +73,11 @@ body {
         animation: none;
         transition: none;
     }
+=======
+/* CSS Reset */
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+>>>>>>> 38afc7c (Add reset.css and style.css with contact card layout)
 }
